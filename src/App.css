@@ -16,23 +16,12 @@ html, body {
   height: 100vh;
 }
 
-header {
-  width: 100%;
-  background-color: #242323;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  padding: 0 2rem;
-  position: fixed;
-  top: 0;
-  height: 4rem;
-  z-index: 1000;
-}
 
 button {
   background-color: transparent;
   border: none;
   color: #ffffff;
+  width: auto;
 }
 
 button:hover{
@@ -57,63 +46,6 @@ footer {
   z-index: 1000;
 }
 
-/* Header styles */
-.mainLogoImage {
-  width: 3rem;
-}
-
-.titleContainer {
-  width: 30%;
-}
-
-.searchBody {
-  width: 40%;
-}
-
-.searchContainer {
-  width: 45%;
-}
-
-.userContainer {
-  width: auto;
-}
-
-.titleButtonContainer {
-  display: flex;
-  align-items: center;
-  gap: .7rem;
-  padding: 1rem;
-  width: 100%;
-}
-
-.titleFont {
-  font-family: "Playwrite PE", cursive;
-  font-size: 1.4rem;
-}
-
-.searchButtonContainer {
-  background-color: #383838;
-  border-radius: 2rem;
-  padding: .5rem;
-  display: flex;
-  gap: 1rem;
-  width: auto;
-}
-
-.searchIcon {
-  width: 1.8rem;
-}
-
-.searchBody {
-  background-color: transparent;
-  border: none;
-  color: #ffffff;
-  outline: none;
-}
-
-.userIcon {
-  width: 100%;
-}
 
 /* Aside (sidebar) */
 .navInfo {
@@ -214,50 +146,4 @@ footer {
 /* Song list */
 .songListGrid {
   padding: 2rem 0rem;
-}
-
-.songListGrid__item {
-  display: grid;
-  width: 100%;
-  grid-template-columns: .2fr 4fr 1fr 1fr;
-  align-items: center;
-}
-
-.songTitle{
-  margin: 0;
-  font-weight: 600;
-  font-size: .9rem;
-}
-
-.songArtist{
-  margin: 0;
-  font-size: .8rem;
-  color: #ffbc41;
-}
-
-.moreButton {
-  width: 1rem;
-}
-
-/* Style of the footer controls */
-.mainPlayerControlContainer{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.playerControlContainer{
-  margin: 0 15rem;
-  padding: 0 10rem 1rem 10rem;
-  display: flex;
-  gap: 1rem;
-  border-bottom: 3px solid #d3d3d3;
-}
-
-.playerControl{
-  width: 2rem;
-}
-
-.volumenControl{
-  width: 1.5rem;
 }

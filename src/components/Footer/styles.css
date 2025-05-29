@@ -1,0 +1,21 @@
+.mainPlayerControlContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.playerControlContainer{
+    margin: 0 15rem;
+    padding: 0 10rem 1rem 10rem;
+    display: flex;
+    gap: 1rem;
+    border-bottom: 3px solid #d3d3d3;
+}
+
+.playerControl{
+    width: 2rem;
+}
+
+.volumenControl{
+    width: 1.5rem;
+}

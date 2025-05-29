@@ -1,0 +1,27 @@
+.songListGrid__item {
+    display: grid;
+    width: 100%;
+    grid-template-columns: .2fr 4fr 1fr 1fr;
+    align-items: center;
+}
+
+.songTitle{
+    margin: 0;
+    font-weight: 600;
+    font-size: .9rem;
+}
+
+.songArtist{
+    margin: 0;
+    font-size: .8rem;
+    color: #ffbc41;
+}
+
+.moreButton {
+    width: 1rem;
+}
+
+
+.songOptButton{
+    width: 1rem;
+}
