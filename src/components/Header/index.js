@@ -1,15 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { logoMedium, searchButton, userButton }  from '../../images';
+import './styles.css'
 
-class Header extends Component {
-    
-    componentDidMount(){
-        console.log('Header component has mount');
-    }
-    
-    render() {
-        return(
-            <header>
+const Header = () => {
+    return(
+        <header>
                 <div className = "titleContainer"> 
                     <button><div className = "titleButtonContainer"><img className = "mainLogoImage" src={logoMedium}></img><h1 className ="titleFont">Soundwave</h1></div></button>
                 </div>
@@ -25,8 +20,7 @@ class Header extends Component {
                     <button><img className = "userIcon" src={userButton}></img></button>
                 </div>
             </header>
-        )
-    }
+    )
 }
 
 export default Header;

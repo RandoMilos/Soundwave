@@ -14,6 +14,7 @@ import controlPlay from './control-play.png'
 import controlNext from './control-right.png'
 import controlShuffle from './control-shuffle.png'
 import controlRepeat from './control-repeat.png'
+import addTo from './plus.svg'
 
 
-export { logoMedium, searchButton, userButton, homeIcon, newIcon, radioIcon, libraryIcon, playlistIcon, playlistCover, moreHorizontal, controlVolumen, controlPrev, controlPlay, controlNext, controlShuffle, controlRepeat };
+export { logoMedium, searchButton, userButton, homeIcon, newIcon, radioIcon, libraryIcon, playlistIcon, playlistCover, moreHorizontal, controlVolumen, controlPrev, controlPlay, controlNext, controlShuffle, controlRepeat, addTo };

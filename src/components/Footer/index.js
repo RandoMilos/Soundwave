@@ -1,5 +1,6 @@
     import React, { Component} from 'react';
     import { controlShuffle, controlPrev, controlPlay, controlNext, controlRepeat, controlVolumen }  from '../../images';
+    import './styles.css'
 
     class Footer extends Component{
         

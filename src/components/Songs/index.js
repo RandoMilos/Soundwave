@@ -1,27 +1,19 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { moreHorizontal } from '../../images';
+import './styles.css'
 
-class Song extends Component {
-    constructor(props){
-        super(props);
-    }
-    
-    componentDidMount(){
-        console.log('Component song has been mounted');
-    }
-    render(){
-        return(
-            <div className='songListGrid__item'>
-                <p>{this.props.songNumber}</p>
-                <div>
-                    <p className='songTitle'>{this.props.songTitle}</p>
-                    <p className='songArtist'>{this.props.songArtist}</p>
-                </div>
-                <p>{this.props.songLength}</p>
-                <button><img className='moreButton' src={moreHorizontal}></img></button>
+const Song = ( {songID, songTitle, songArtist, songLength} ) => {
+    return(
+        <div className='songListGrid__item'>
+            <p>{songID}</p>
+            <div>
+                <p className='songTitle'>{songTitle}</p>
+                <p className='songArtist'>{songArtist}</p>
             </div>
-        );
-    }
+            <p>{songLength}</p>
+            <button className='songOptButton'><img className='moreButton' src={moreHorizontal}></img></button>
+        </div>
+    )
 }
 
 export default Song;
